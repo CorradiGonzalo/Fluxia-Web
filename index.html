@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Fluxia | Home</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@300..700,0..1&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body class="page-home">
+		<div class="page-shell">
+			<header class="site-header">
+				<div class="container nav-wrap">
+					<a class="brand" href="#inicio" aria-label="Fluxia inicio">
+						<img class="brand__logo" src="assets/fluxia-logo.png" alt="Logo Fluxia" />
+						<span class="brand__name">Fluxia</span>
+					</a>
+
+					<input id="menu-toggle" class="menu-toggle" type="checkbox" />
+					<label for="menu-toggle" class="menu-btn" aria-label="Abrir menu">
+						<span class="material-symbols-outlined">menu</span>
+					</label>
+
+					<nav class="nav-links" aria-label="Navegacion principal">
+						<a href="index.html">Inicio</a>
+						<a href="precios.html">Precio</a>
+						<a href="sobre-nosotros.html">Sobre Nosotros</a>
+					</nav>
+
+					<a
+						class="btn btn--solid btn--top"
+						href="exe/FluxiaSetup_1.0.0.exe"
+						download="FluxiaSetup_1.0.0.exe"
+					>
+						Comenzar Ahora
+					</a>
+				</div>
+			</header>
+
+			<main>
+				<section class="hero" id="inicio">
+					<div class="container hero-grid">
+						<div class="hero-copy">
+							<p class="hero-copy__kicker">MOTOR DE VENTAS IMPARABLE</p>
+							<h1 class="hero-copy__title">
+								Fluxia: Tu Motor de Ventas
+								<span>Imparable</span>
+							</h1>
+							<p class="hero-copy__description">
+								Optimiza tu embudo de ventas, genera leads calificados y escala tu negocio con nuestra
+								plataforma inteligente impulsada por IA.
+							</p>
+							<div class="hero-copy__actions">
+								<a
+									class="btn btn--solid"
+									href="exe/FluxiaSetup_1.0.0.exe"
+									download="FluxiaSetup_1.0.0.exe"
+								>
+									Comenzar Ahora
+								</a>
+								<a class="btn btn--outline" href="#precios">Ver Demo</a>
+							</div>
+						</div>
+
+						<div class="hero-board" aria-hidden="true">
+							<div class="hero-board__inner">
+								<div class="hero-board__list">
+									<p>Campaign</p>
+									<p>Edits Eventum</p>
+									<p>CREO Data</p>
+									<p>Centro Cloud</p>
+									<p>CGVENG</p>
+									<p>EtoConsulting</p>
+									<p>OctoLab</p>
+									<p>CALPEYSE</p>
+								</div>
+								<div class="hero-board__charts">
+									<div class="chart-block">
+										<p>Checks &amp; Cafeteries</p>
+										<div class="chart-grid chart-grid--a"></div>
+									</div>
+									<div class="chart-block">
+										<p>Revenue Path</p>
+										<div class="chart-grid chart-grid--b"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="kpis" id="precios">
+					<div class="container kpis-grid">
+						<article class="kpi-card">
+							<span class="material-symbols-outlined">rocket_launch</span>
+							<p class="kpi-card__label">Leads Generados</p>
+							<p class="kpi-card__value">+150k</p>
+							<p class="kpi-card__trend">+12% vs mes anterior</p>
+						</article>
+						<article class="kpi-card">
+							<span class="material-symbols-outlined">payments</span>
+							<p class="kpi-card__label">Cierres de Ventas</p>
+							<p class="kpi-card__value">+45%</p>
+							<p class="kpi-card__trend">+8% crecimiento anual</p>
+						</article>
+						<article class="kpi-card">
+							<span class="material-symbols-outlined">groups</span>
+							<p class="kpi-card__label">Clientes Activos</p>
+							<p class="kpi-card__value">2.5k</p>
+							<p class="kpi-card__trend">+5% este trimestre</p>
+						</article>
+						<article class="kpi-card">
+							<span class="material-symbols-outlined">speed</span>
+							<p class="kpi-card__label">Tiempo de Respuesta</p>
+							<p class="kpi-card__value">-30min</p>
+							<p class="kpi-card__trend">Mejora en eficiencia</p>
+						</article>
+					</div>
+				</section>
+			</main>
+
+			<footer class="site-footer" id="sobre-nosotros">
+				<div class="container footer-links">
+					<a href="#">Privacidad</a>
+					<a href="#">Términos</a>
+					<a id="contacto" href="https://wa.me/3547521873" target="_blank" rel="noopener noreferrer">Contacto</a>
+				</div>
+
+				<div class="container footer-social" aria-label="Redes sociales">
+					<a href="#" aria-label="Facebook">f</a>
+					<a href="#" aria-label="Twitter">x</a>
+					<a href="#" aria-label="LinkedIn">in</a>
+				</div>
+
+				<div class="container footer-brand-wrap">
+					<a class="brand" href="#inicio" aria-label="Fluxia inicio">
+						<img class="brand__logo" src="assets/fluxia-logo.png" alt="Logo Fluxia" />
+						<span class="brand__name">Fluxia</span>
+					</a>
+					<p class="copyright">&copy; 2026 Fluxia. Todos los derechos reservados.</p>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
+
