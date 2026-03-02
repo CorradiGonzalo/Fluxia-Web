@@ -559,6 +559,11 @@ body {
 	line-height: 1.04;
 }
 
+.page-pricing .plan-card__price--custom {
+	font-size: clamp(1.8rem, 1.3rem + 0.6vw, 2.6rem);
+	overflow-wrap: anywhere;
+}
+
 .page-pricing .plan-card__price span {
 	font-size: clamp(1rem, 0.9rem + 0.2vw, 1.3rem);
 	font-weight: 500;
